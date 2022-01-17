@@ -7,7 +7,7 @@ class Home extends React.Component {
   render() {
     return(
       <div>
-        <div className="home"/> 
+        <div className="home" id="about"/> 
         <div className="textbox">
           <div className="text">
             <div/>
@@ -21,7 +21,7 @@ class Home extends React.Component {
           </div>
         </div>
         <img src={icon} alt="" style={{position: "absolute", top: "30%", left: "30%", maxHeight: "400px"}}/>
-        <div>
+        <div id="projects">
           <br/>
           <h1>projects</h1>
           <Project/>

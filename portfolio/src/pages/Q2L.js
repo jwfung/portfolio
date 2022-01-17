@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-import Topbar from '../Topbar';
 import flow from '../assets/flow.jpg';
 import lofi from '../assets/lofi.jpg';
 import mockup from '../assets/quest2learn.png';
@@ -100,7 +99,7 @@ class Case extends React.Component {
             <p>I conducted an <strong>A/B test </strong> through Google Forms to determine which interface would be most preferred and intuitive for users. 
             From the data collected, and after undergoing a couple more iterations, we were able to combine ideas from all three designs into the final prototype. </p> 
             <p>Below are my contributions to the final <strong>high fidelity wireframe.</strong> </p>
-            <img/>
+            <img alt=""/>
             <p>simple color palette to decrease cognitive load. (show palette) easy to read sanscript.
               icons to keep a fun and engaging intereface. feels immersive in lab setting
               easily switch between labs and courses. 

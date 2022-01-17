@@ -1,4 +1,3 @@
-import logo from '../assets/small icon.png';
 import Topbar from '../Topbar';
 import Main from '../Main';
 import '../App.css';

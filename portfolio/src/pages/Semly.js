@@ -61,10 +61,7 @@ class Case extends React.Component {
           {/* background */}
           <div className='case body'>
             <h3>problem</h3>
-              <p>At the start of the pandemic, schools moved laboratory classes to an online format. 
-                This typically involved watching videos of a professor conducting the experiment and copying down the data.  
-                However, students found it <strong>difficult to engage with new concepts</strong> and 
-                process the material through watching video recordings alone.</p> 
+              <p>Students are required to send their planned course schedules to their advisors for approval before the start of each semester. </p> 
             <h3>gaining user insights</h3>
               <p>A survey was conducted to better understand how students felt about the situation. 
                 I analyzed the data from the student survey, and I came up with two personas

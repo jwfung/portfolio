@@ -7,14 +7,23 @@ class Project extends React.Component {
     return(
       <div className='project'>
         <div>
-          <img></img>
-          <Link to="/projects/q2l" className='text'>
-            <h2>quest2learn</h2>
-            <p>designing a gamefied labatory basics app to engage and prepare students for lab work </p>
+          <Link to="/projects/q2l">
+            <img></img>
+            <div className='text'>
+              <h2>quest2learn</h2>
+              <p>designing a gamefied laboratory basics app to engage and prepare students for lab work </p>
+            </div>
           </Link>
         </div>
-        <div></div>
-        <div></div>
+        <div>
+          <Link to="/projects/semly" className='text'>
+            <h2>semesterly</h2>
+            <p>connecting students to faculty advisors to better mentorship</p>
+          </Link>
+        </div>
+        <div>
+
+        </div>
       </div>  
     )
   }
