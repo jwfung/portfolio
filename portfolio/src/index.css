@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  color: #4b4b4b;
+}
+
+strong {
+  color: black;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+ul{
+  padding: 0;
+  margin: 2px;
+}
+
+code {
+  font-family:  source-code-pro, Menlo, Monaco, Consolas, 'Nunito',
+    monospace;
+}
+

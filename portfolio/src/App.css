@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+.body {
+  padding: 0 200px;
+}
+
+/* TOPBAR */
+.topbar {
+  background-color: #FFC200;
+  color: white;
+  font-weight: 800;
+  width: 100%;
+  height: 3.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  text-align: justify;
+
+  display: grid;
+  grid-template-columns: 30% auto 22%;
+  grid-gap: 10px;
+}
+.topbar > div {
+  padding: 20px 0;
+  font-size: 18px;
+}
+.logo {
+  float: left;
+  display: grid;
+  grid-template-columns: 40px 150px;
+  margin-left: 10%;
+  padding: 0;
+}
+.logo > p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.about {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  max-width: 300px;
+}
+.about > p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/* HOME */
+.home {
+  width: 45%;
+  background-color: #FFC200;
+  position: relative; 
+  height: 700px;
+}
+.textbox {
+  background-color: #FBF8F4;
+  border-radius: 20px;
+  position: absolute; 
+  width: 800px;
+  height: 320px;
+  top: 25%;
+  left: 25%;
+  box-shadow: 0px 10px rgb(235, 231, 197);
+}
+.text {
+  text-align: left;
+  margin-left: 40%;
+  font-size: larger;
+  font-weight: 800;
+  display: grid;
+  grid-template-rows: 50px 80px 100px;
+}
+.hello {
+  text-decoration: underline dotted;
+  border-radius: 3px;
+  grid-template-columns: auto;
+  display: grid;
+
+}
+
+
+/* PROJECT */
+.project {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+.project > div {
+  background-color: #FBF8F4;
+  border-radius: 20px;
+  position: relative;
+  margin: 30px; 
+  width: 800px;
+  height: 320px;
+  top: 25%;
+  left: 25%;
+  box-shadow: 0px 10px rgb(235, 231, 197);
+}
+
+/* CASE */
+.case {
+  text-align: left;
+  font-size: larger;
+  display: grid;
+}
+.header {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:#2B70C9;
+  color: white;
+  max-width: 100%;
+  padding: 100px;
+  grid-gap: 50px;
+}
+.more{
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: left;
+  grid-gap: 0 40px;
+  /* margin: 50px; */
+}
+.persona {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.persona > div {
+  background-color: #FBF8F4;
+  border-radius: 20px;
+  position: relative;
+  width: 80%;
+  margin: 30px 0 30px 0; 
+  height: 420px;
+  box-shadow: 0px 10px rgb(235, 231, 197);
+}
+.phones {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  align-items: justify;
+}
+.phones > img {
+  max-height: 620px;
+  border-radius: 40px;
+}
