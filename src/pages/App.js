@@ -1,5 +1,5 @@
 import Topbar from '../Topbar';
-import Main from '../Main';
+import Main from './Main';
 import '../App.css';
 
 function App() {

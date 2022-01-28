@@ -1,8 +1,15 @@
 .App {
   text-align: center;
 }
-.body {
-  padding: 0 200px;
+.main {
+  margin: 20%;
+  margin-top: 30px;
+  max-width: 80%;
+  text-align: left;
+  font-size: larger;
+}
+img {
+  max-width: 100%;
 }
 
 /* TOPBAR */
@@ -28,31 +35,30 @@
 .logo {
   float: left;
   display: grid;
-  grid-template-columns: 40px 150px;
+  grid-template-columns: 40px 180px;
   margin-left: 10%;
   padding: 0;
 }
-.logo > p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.about {
+.three-col {
   display: grid;
   grid-template-columns: auto auto auto;
-  max-width: 300px;
 }
-.about > p {
+.three-col > p {
   margin-top: 0;
   margin-bottom: 0;
 }
-
+.two-col {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
 
 /* HOME */
 .home {
   width: 45%;
   background-color: #FFC200;
-  position: relative; 
-  height: 700px;
+  position: absolute; 
+  height: 720px;
 }
 .textbox {
   background-color: #FBF8F4;
@@ -78,25 +84,34 @@
   border-radius: 3px;
   grid-template-columns: auto;
   display: grid;
-
 }
-
+.flags {
+  display: inline-flex;
+  font-size: large;
+  font-weight: 600;
+  color: #4b4b4b;
+  position: relative;
+}
 
 /* PROJECT */
 .project {
   display: grid;
   grid-template-rows: auto;
+  justify-content: space-around;
 }
 .project > div {
+  justify-content: space-around;
   background-color: #FBF8F4;
   border-radius: 20px;
-  position: relative;
   margin: 30px; 
-  width: 800px;
-  height: 320px;
-  left: 25%;
+  padding: 20px;
+  max-height: 80%;
   box-shadow: 0px 10px rgb(235, 231, 197);
 }
+.project > div:hover {
+  background-color: #f8f1e9;
+}
+
 
 /* CASE */
 .case {
@@ -131,8 +146,8 @@
   position: relative;
   width: 80%;
   margin: 30px 0 30px 0; 
-  height: 420px;
   box-shadow: 0px 10px rgb(235, 231, 197);
+  padding: 10px;
 }
 .phones {
   display: grid;
@@ -143,4 +158,46 @@
 .phones > img {
   max-height: 620px;
   border-radius: 40px;
+}
+
+.btn {
+  color: white;
+  font-weight: 800;
+  font-size: large;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 250px;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 
+    sans-serif;
+}
+.btn:hover{
+  color: white;
+}
+
+.mid {
+  text-align: center;
+}
+
+
+
+.about {
+  background-color: #FFC200;
+  height: 690px;
+}
+.about > div {
+  text-align: left;
+  padding: 20px;
+  max-width: 50%;
+  font-size: larger;
+  font-weight: 800;
+  background-color: #FBF8F4;
+  border-radius: 20px;
+  margin: 100px auto; 
+  padding: 20px;
+  box-shadow: 0px 10px rgb(235, 231, 197);
+}
+.about > div > p {
+  font-weight: 600;
 }

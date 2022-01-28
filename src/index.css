@@ -27,7 +27,11 @@ h1 {
   font-size: 40px;
 }
 
-ul{
+h2 {
+  font-weight: 800;
+}
+
+ul {
   padding: 0;
   margin: 2px;
 }
