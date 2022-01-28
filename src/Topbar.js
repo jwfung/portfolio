@@ -16,7 +16,7 @@ class Topbar extends React.Component {
         <div className="three-col" style={{marginRight: "0", maxWidth: "300px"}}> 
           <Link to="/about" spy={true} smooth={true}> about </Link> 
           <Link to="/projects" spy={true} smooth={true}> projects </Link> 
-          <p> resume </p> 
+          <a href="https://1drv.ms/w/s!ApAzMnlybCxJl2HKLsEqQXju1_sg?e=mwt5o6"> resume </a> 
         </div> 
       </div>  
     )
