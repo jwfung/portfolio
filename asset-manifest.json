@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5f78e405.css",
-    "main.js": "/portfolio/static/js/main.163354d3.js",
+    "main.js": "/portfolio/static/js/main.48d06447.js",
     "static/js/787.edd59a96.chunk.js": "/portfolio/static/js/787.edd59a96.chunk.js",
     "static/media/q2l_hifi.gif": "/portfolio/static/media/q2l_hifi.5443670d4fc567ad7b62.gif",
     "static/media/series.png": "/portfolio/static/media/series.886bae6f3e0fe2239340.png",
@@ -17,6 +17,7 @@
     "static/media/semly_side.png": "/portfolio/static/media/semly_side.59def5733e6e28cbe7fe.png",
     "static/media/lofi.jpg": "/portfolio/static/media/lofi.293dde613946c38b9f06.jpg",
     "static/media/semly_dash.png": "/portfolio/static/media/semly_dash.0712bf8cad499a2c6577.png",
+    "static/media/jeanie.JPG": "/portfolio/static/media/jeanie.5364963cb14679da720c.JPG",
     "static/media/semly.png": "/portfolio/static/media/semly.2625ebb446445db6bc68.png",
     "static/media/flow.jpg": "/portfolio/static/media/flow.1c6acf4f59f08ba2a9a1.jpg",
     "static/media/semly_am.png": "/portfolio/static/media/semly_am.de4f6e0b6203847eee21.png",
@@ -41,11 +42,11 @@
     "static/media/small icon.png": "/portfolio/static/media/small icon.d370a96e2d8dbbf20b05.png",
     "index.html": "/portfolio/index.html",
     "main.5f78e405.css.map": "/portfolio/static/css/main.5f78e405.css.map",
-    "main.163354d3.js.map": "/portfolio/static/js/main.163354d3.js.map",
+    "main.48d06447.js.map": "/portfolio/static/js/main.48d06447.js.map",
     "787.edd59a96.chunk.js.map": "/portfolio/static/js/787.edd59a96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f78e405.css",
-    "static/js/main.163354d3.js"
+    "static/js/main.48d06447.js"
   ]
 }
