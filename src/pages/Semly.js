@@ -6,7 +6,10 @@ import side from "../assets/semly_side.png";
 import mockup from '../assets/semly.png';
 import am from '../assets/semly_am.png';
 import hifi from '../assets/semly_hifi.gif';
-import q2l3 from '../assets/q2l_3.png';
+import sc1 from '../assets/semly_sc1.png';
+import sc2 from '../assets/semly_sc2.png';
+import sc3 from '../assets/semly_sc3.png';
+import sc4 from '../assets/semly_sc4.png';
 
 class Case extends React.Component {
   componentDidMount() {
@@ -18,13 +21,13 @@ class Case extends React.Component {
       <div>
         <div>
           {/* project */}
-          <div className='header' style={{background: "#ff7878"}}>
+          <div className='header' style={{background: "#ff7878", color: "black"}}>
             <div className='case'>
               <h1>advising dashboard for semesterly</h1>
               <div/>
               <div>
                 <h3>project summary</h3>
-                <p style={{ color: "white", fontWeight: "300"}}>
+                <p style={{ fontWeight: "500"}}>
                   
                   Semesterly is a leader in streamlining the course scheduling experience. 
                   However, after planning out a schedule, the process of sharing it with advisors for approval is bit more steps.
@@ -34,7 +37,7 @@ class Case extends React.Component {
                 </p>
               </div>
             </div>
-            <div className='more'>
+            <div className='more' style={{ fontWeight: "500"}}>
               <div>
                 <h4>role</h4> 
                 <ul>product designer</ul> 
@@ -56,13 +59,17 @@ class Case extends React.Component {
                 <ul>Mia B.</ul>
                 <ul>James W.</ul>
                 <ul>Rishi B.</ul>
+                <ul>Sebastian C.</ul>
               </div>
             </div>
           </div>
-          <img src={mockup} alt="" style={{position: "relative", borderRadius: "10px", maxWidth: "50%", margin: 10}}></img>
+          <img src={mockup} alt="" style={{ borderRadius: "10px", maxWidth: "50%", margin: 10}}></img>
 
           {/* background */}
-          <div className='main'>
+          <div className='main' style={{marginBottom: "20px"}}>
+            <br/>
+            <br/>
+            <div className='mid'><h2>Background</h2></div>
             <h3>context</h3>
               <p>
                 Students are required to send their planned course schedules to their advisors for approval 
@@ -100,31 +107,35 @@ class Case extends React.Component {
               <ol> •  70% of students would appreciate a chat or comment system to communicate with advisors</ol>
 
               <p>
+                The survey was also brought to our attention complications we had not considered, such as 
+                the need to make sure whatever we developed was FERPA Compliant. 
+              </p> 
+              <p>
                 I analyzed the data from the student survey, and I 
-                constructed two <strong>user personas </strong> to synthesize our insights and paint a narrative for the most prominent issues that we observed.
-
+                constructed two <strong>user personas </strong> to synthesize our insights and 
+                paint a narrative for the most prominent issues that we observed. 
               </p>
               <div className="persona">
-                <div>
+                <div style={{zIndex: "-1"}}>
                   <h4>story</h4>
                   Annie is a junior at Johns Hopkins studying Computer Science and Psychology. 
                   Annie hopes to graduate a semester early to save on tuition costs. 
                   <h4>desires & needs</h4>
-                  <ul>open communication with both advisors to plan her courses</ul>
+                  <ul>• open communication with both advisors to plan her courses</ul>
                   <ul></ul>
                   <h4>pain points</h4>
-                  <ul>cumbersome to repeatedly share and explain her course selection to both advisors</ul>
-                  <ul>difficult to schedule appointments with advisors over email</ul>
+                  <ul>• annoying to repeatedly share and explain her course selection to both advisors</ul>
+                  <ul>• difficult to schedule appointments with advisors over email</ul>
                 </div>
-                <div>
+                <div style={{zIndex: "-1"}}>
                   <h4>story</h4>
                   Dr. Lin is a professor and faculty advisor. He meets with 70 students in between preparing his courses 
                   each semester to make sure they are on track to graduate.
                   <h4>desires & needs</h4>
-                  <ul></ul>
+                  <ul>• open communication with advisees to ensure they maintain on track to graduation</ul>
                   <h4>pain points</h4>
-                  <ul>students do not always align their courses to their degree requirements</ul>
-                  <ul>difficult to keep track of advisee meetings through multiple platforms</ul>
+                  <ul>• students do not always align their courses to their degree requirements</ul>
+                  <ul>• difficult to keep track of advisee meetings through multiple platforms</ul>
                 </div>
               </div>
             <h3>solution</h3>
@@ -135,7 +146,9 @@ class Case extends React.Component {
               </p>
 
             {/* ideation */}
-            <h2>Ideation and Prototyping</h2>
+            <br/>
+            <br/>
+            <div className='mid'><h2>Ideation and Prototyping</h2></div>
             <p>First, I mapped out the basic <strong>user flow</strong> to get an idea of how a user would interact with the app.</p>
             <div style={{textAlign: "center"}}><img src={flow} alt="user flow" style={{maxWidth: "80%"}}/></div>
             <p>I then brainstormed how this new feature might be incorporated into the exisiting platform, and how the interface might differ for students versus advisors.</p>
@@ -162,25 +175,45 @@ class Case extends React.Component {
             </p> 
             <p>From here, I adjusted the design to create a <strong>high fidelity wireframe</strong> for a <strong>minimum viable product</strong> that would work with the exisiting platform.</p> 
 
-            <h2>Final Product</h2>
-            <div style={{textAlign: "center"}}>
+            <br/>
+            <br/>
+            <div className='mid'><h2>Final Product</h2></div>
+            <div className='mid'>
               <img src={hifi} alt="" style={{maxWidth: "80%"}}/>
+              <br/>
+              <br/>
+              <br/>
+              <a class="btn" target="_blank" href="https://www.figma.com/proto/ATZhy9p7u6kSO1IkGP3jXC/Untitled?node-id=84%3A96&scaling=scale-down&page-id=79%3A130&starting-point-node-id=84%3A98">
+                play with the prototype
+              </a>
             </div>
-            <p>simple color palette to decrease cognitive load. (show palette) easy to read sanscript.
-              icons to keep a fun and engaging intereface. feels immersive in lab setting
-              easily switch between labs and courses. 
-              awards to stay motivated to play and learn.
-              recieve grades to be sent to professors.
-              progress bars to see what labs are still unfinished. Allows for breaks inbetween lessons.
-            </p>
+            <h3>features and highlights</h3>
+          </div>
+          <div className='mid'>
+            <img src={sc1} alt="" style={{maxWidth: "100%"}}/>
+            <br/>
+            <br/>
+            <img src={sc2} alt="" style={{maxWidth: "100%"}}/>
+            <br/>
+            <br/>
+            <img src={sc3} alt="" style={{maxWidth: "100%"}}/>
+            <br/>
+            
+            <img src={sc4} alt="" style={{maxWidth: "100%"}}/>
+          </div>
+          <div className='main'>
+            <br/>
+            <br/>
+            <div className='mid'><h2>Implementation</h2></div>
+              <p> The advising dashboard is implemented using ReactJS and Redux for the frontend, and Django for the backend. </p>
+              <p> View <a href="http://www.cnds.jhu.edu/courses/cs310/semesterly/" style={{textDecoration: "underline"}}>the final project overview</a> and source code.</p>
 
-            <h2>Implementation</h2> 
-              <p>The advising dashboard is implemented using ReactJS and Redux for the frontend, and Django for the backend. </p>
-
-            <h2>Final Conclusions</h2>
+            <br/>
+            <br/>
+            <div className='mid'><h2>Final Conclusions</h2></div>
               <h3>lesson learned</h3>
               <p> 
-                This project was unique to me because I waas not just a product designer, but also a developer. I was able to 
+                This project was unique to me because I was not just a product designer, but also a developer. I was able to 
                 experience first-hand the benefits of having a working prototype to use as reference when creating a new product. 
                 It also challenged me to first consider if there was a way to reuse exisiting components rather than starting from scratch.
                 Not only does this make it simplier to implement, it also helps to keep the overall site looking cohesive. 
@@ -188,7 +221,7 @@ class Case extends React.Component {
               <p>
               
               </p>
-              <h3>looking ahead</h3>
+              {/* <h3>looking ahead</h3> */}
               <p>
                  
               </p>

@@ -7,18 +7,19 @@ import Semly from "./Semly";
 import Ucredit from "./Ucredit";
 import Project from "./Project";
 import About from "./About";
+import InProduction from "./InProduction";
 
 const Main = () => {
 
   return (
     <Routes>
       <Route path="/portfolio" element={<Home/>}/>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/about" element={<About/>} />
-      <Route path="/projects/q2l" element={<Q2L/>} />
-      <Route path="/projects/semly" element={<Semly/>} />
-      <Route path="/projects/ucredit" element={<Ucredit/>} />
-      <Route path="projects" element={<Project/>} />
+      {/* <Route path="/" element={<Home/>}/> */}
+      <Route path="/portfolio/about" element={<About/>} />
+      <Route path="/portfolio/projects/q2l" element={<Q2L/>} />
+      <Route path="/portfolio/projects/semly" element={<Semly/>} />
+      <Route path="/portfolio/projects/ucredit" element={<InProduction/>} />
+      <Route path="/portfolio/projects" element={<Project/>} />
     </Routes>
   )
 }

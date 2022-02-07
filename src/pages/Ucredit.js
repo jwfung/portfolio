@@ -24,9 +24,7 @@ class Case extends React.Component {
               <div>
                 <h3>project summary</h3>
                 <p style={{ color: "white", fontWeight: "300"}}>
-                  
                   I was interested in seeing how I can apply modern design principles to simplify the existing dashboard.
-
                 </p>
               </div>
             </div>
@@ -91,10 +89,7 @@ class Case extends React.Component {
 
             {/* ideation */}
             <h2>Ideation and Prototyping</h2>
-            <p>First, I mapped out the basic <strong>user flow</strong> to get an idea of how a user would interact with the app.</p>
-            <img src={flow} alt="user flow" style={{maxWidth: "100%"}}/>
-            <p>I then brainstormed how this new feature might be incorporated into the exisiting platform, and how the interface might differ for students versus advisors.</p>
-            <img src={lofi} alt="low-fidelity" style={{maxWidth: "100%"}}/>
+            
             <p>Speaking with the technical team, we discussed which features would be most possible and most important to implement with our given timeline. 
               From here, I adjusted the design to create a wireframe for a <strong>minimum viable product</strong> that would work with the exisiting platform.</p> 
             <img/>

@@ -17,7 +17,7 @@ class Project extends React.Component {
         <h1>projects</h1>
         <div className='project'>
           <div>
-          <Link to="/projects/q2l" >
+          <Link to="/portfolio/projects/q2l" >
             <img src={q2l} alt="quest2learn mockups" style={{borderRadius: "20px", maxWidth: "100%", maxHeight: "80%"}}/>
             <div>
               <h2>quest2learn</h2>
@@ -26,17 +26,17 @@ class Project extends React.Component {
           </Link>
           </div>
           <div>
-            <Link to="/projects/semly" >
+            <Link to="/portfolio/projects/semly" >
               <img src={semly} alt="semly mockups" style={{borderRadius: "20px", maxWidth: "100%", maxHeight: "80%"}}/>
               <h2>semesterly</h2>
               <p>connecting students to faculty advisors to better mentorship</p>
             </Link>
           </div>
           <div>
-            <Link to="/projects/ucredit" >
+            <Link to="/portfolio/projects/ucredit" >
               <img src={uc} alt="ucredit mockups" style={{borderRadius: "20px", maxWidth: "100%", maxHeight: "80%"}}/>
               <h2>ucredit</h2>
-              <p>connecting students to faculty advisors to better mentorship</p>
+              <p>simplifying course planning for university students</p>
             </Link>
           </div>
         </div>  

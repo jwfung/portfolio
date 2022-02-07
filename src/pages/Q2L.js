@@ -64,7 +64,7 @@ class Case extends React.Component {
               </div>
             </div>
           </div>
-          <img src={mockup} alt="" style={{position: "relative", borderRadius: "10px", maxWidth: "80%", margin: 10}}></img>
+          <img src={mockup} alt="" style={{borderRadius: "10px", maxWidth: "80%", margin: 10}}></img>
 
           {/* background */}
           <div className='main'>
@@ -85,16 +85,16 @@ class Case extends React.Component {
                 I analyzed the data from the student survey, and I came up with two personas
                 to illustrate user needs:</p>
               <div className="persona">
-                <div>
+                <div style={{zIndex: "-1"}}>
                   <h4>story</h4>
                   Timothy is a university student taking classes remotely at home. Timothy is a visual and kinetic learner, and 
                   the recent shift to virtual classes has made it hard for him to stay focused. 
                   <h4>desires & needs</h4>
-                  <ul>direct interation to help him process the material</ul>
-                  <ul>break from virtual recording to avoid zoom fatigue</ul>
+                  <ul>• direct interation to help him process the material</ul>
+                  <ul>• break from virtual recording to avoid zoom fatigue</ul>
                   <h4>pain points</h4>
-                  <ul>loses focus watching videos of other people preforming experiments</ul>
-                  <ul>difficult to comprehend and memorize the tools for future labs</ul>
+                  <ul>• loses focus watching videos of other people preforming experiments</ul>
+                  <ul>• difficult to comprehend and memorize the tools for future labs</ul>
                 </div>
                 
               </div>
@@ -165,7 +165,7 @@ class Case extends React.Component {
             <p>Below are my contributions to the final <strong>high fidelity wireframe.</strong> </p>
             <img src={hifi} alt="" style={{maxWidth: "100%"}}/>
             <div style={{textAlign: "center"}}>
-              <a class="btn" href="https://www.figma.com/proto/ATZhy9p7u6kSO1IkGP3jXC/Untitled?node-id=0%3A7&scaling=scale-down&page-id=0%3A1&starting-point-node-id=0%3A7">
+              <a class="btn" target="_blank" href="https://www.figma.com/proto/ATZhy9p7u6kSO1IkGP3jXC/Untitled?node-id=0%3A7&scaling=scale-down&page-id=0%3A1&starting-point-node-id=0%3A7">
                 play with the prototype
               </a>
               <br/>
