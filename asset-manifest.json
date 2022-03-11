@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.35103b18.css",
+    "main.css": "/portfolio/static/css/main.e9bd7ff6.css",
     "main.js": "/portfolio/static/js/main.88f50267.js",
     "static/media/q2l_hifi.gif": "/portfolio/static/media/q2l_hifi.5443670d4fc567ad7b62.gif",
     "static/media/series.png": "/portfolio/static/media/series.886bae6f3e0fe2239340.png",
@@ -40,11 +40,11 @@
     "static/media/q2l_type.png": "/portfolio/static/media/q2l_type.1decf1c490879db17e3e.png",
     "static/media/small icon.png": "/portfolio/static/media/small icon.d370a96e2d8dbbf20b05.png",
     "index.html": "/portfolio/index.html",
-    "main.35103b18.css.map": "/portfolio/static/css/main.35103b18.css.map",
+    "main.e9bd7ff6.css.map": "/portfolio/static/css/main.e9bd7ff6.css.map",
     "main.88f50267.js.map": "/portfolio/static/js/main.88f50267.js.map"
   },
   "entrypoints": [
-    "static/css/main.35103b18.css",
+    "static/css/main.e9bd7ff6.css",
     "static/js/main.88f50267.js"
   ]
 }
