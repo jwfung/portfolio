@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.94035c9a.css",
+    "main.css": "/portfolio/static/css/main.0b27f85f.css",
     "main.js": "/portfolio/static/js/main.3c7d2c11.js",
     "static/media/q2l_hifi.gif": "/portfolio/static/media/q2l_hifi.5443670d4fc567ad7b62.gif",
     "static/media/series.png": "/portfolio/static/media/series.886bae6f3e0fe2239340.png",
@@ -45,11 +45,11 @@
     "static/media/selfport.svg": "/portfolio/static/media/selfport.37fa9a076f8002f7b3ab8228efcf8ef5.svg",
     "static/media/merriweather-vietnamese-400-normal.woff2": "/portfolio/static/media/merriweather-vietnamese-400-normal.1c4607f612e73642c77e.woff2",
     "index.html": "/portfolio/index.html",
-    "main.94035c9a.css.map": "/portfolio/static/css/main.94035c9a.css.map",
+    "main.0b27f85f.css.map": "/portfolio/static/css/main.0b27f85f.css.map",
     "main.3c7d2c11.js.map": "/portfolio/static/js/main.3c7d2c11.js.map"
   },
   "entrypoints": [
-    "static/css/main.94035c9a.css",
+    "static/css/main.0b27f85f.css",
     "static/js/main.3c7d2c11.js"
   ]
 }
