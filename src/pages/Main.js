@@ -8,17 +8,22 @@ import Ucredit from "./Ucredit";
 import Project from "./Project";
 import About from "./About";
 import InProduction from "./InProduction";
+import "@fontsource/merriweather";
+import BTS from './BTS';
+import Peanuts from "./Peanuts";
 
 const Main = () => {
+  window.scrollTo(0,0);
 
   return (
     <Routes>
       <Route path="/portfolio" element={<Home/>}/>
-      {/* <Route path="/" element={<Home/>}/> */}
       <Route path="/portfolio/about" element={<About/>} />
       <Route path="/portfolio/projects/q2l" element={<Q2L/>} />
       <Route path="/portfolio/projects/semly" element={<Semly/>} />
       <Route path="/portfolio/projects/ucredit" element={<InProduction/>} />
+      <Route path="/portfolio/BTS" element={<BTS/>} /> 
+      <Route path="/portfolio/Peanuts" element={<Peanuts/>} /> 
       <Route path="/portfolio/projects" element={<Project/>} />
     </Routes>
   )

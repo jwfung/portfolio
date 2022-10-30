@@ -21,7 +21,7 @@ class Case extends React.Component {
       <div>
         <div>
           {/* project */}
-          <div className='header' style={{background: "#ff7878", color: "black"}}>
+          <div className='header' style={{background: "pink", color: "#4b4b4b"}}>
             <div className='case'>
               <h1>advising dashboard for semesterly</h1>
               <div/>
@@ -63,10 +63,9 @@ class Case extends React.Component {
               </div>
             </div>
           </div>
-          <img src={mockup} alt="" style={{ borderRadius: "10px", maxWidth: "50%", margin: 10}}></img>
-
           {/* background */}
-          <div className='main' style={{marginBottom: "20px"}}>
+          <div className='main'>
+            <img src={mockup} alt="" style={{ borderRadius: "10px", maxWidth: "100%", margin: 10}}></img>
             <br/>
             <br/>
             <div className='mid'><h2>Background</h2></div>
@@ -116,7 +115,7 @@ class Case extends React.Component {
                 paint a narrative for the most prominent issues that we observed. 
               </p>
               <div className="persona">
-                <div style={{zIndex: "-1"}}>
+                <div>
                   <h4>story</h4>
                   Annie is a junior at Johns Hopkins studying Computer Science and Psychology. 
                   Annie hopes to graduate a semester early to save on tuition costs. 
@@ -127,7 +126,7 @@ class Case extends React.Component {
                   <ul>• annoying to repeatedly share and explain her course selection to both advisors</ul>
                   <ul>• difficult to schedule appointments with advisors over email</ul>
                 </div>
-                <div style={{zIndex: "-1"}}>
+                <div>
                   <h4>story</h4>
                   Dr. Lin is a professor and faculty advisor. He meets with 70 students in between preparing his courses 
                   each semester to make sure they are on track to graduate.
@@ -177,8 +176,8 @@ class Case extends React.Component {
 
             <br/>
             <br/>
-            <div className='mid'><h2>Final Product</h2></div>
             <div className='mid'>
+              <h2>Final Product</h2>
               <img src={hifi} alt="" style={{maxWidth: "80%"}}/>
               <br/>
               <br/>
@@ -187,30 +186,27 @@ class Case extends React.Component {
                 play with the prototype
               </a>
             </div>
+            <br/>
+            <br/>
             <h3>features and highlights</h3>
-          </div>
-          <div className='mid'>
-            <img src={sc1} alt="" style={{maxWidth: "100%"}}/>
-            <br/>
-            <br/>
-            <img src={sc2} alt="" style={{maxWidth: "100%"}}/>
-            <br/>
-            <br/>
-            <img src={sc3} alt="" style={{maxWidth: "100%"}}/>
-            <br/>
-            
-            <img src={sc4} alt="" style={{maxWidth: "100%"}}/>
-          </div>
+            </div>
+            <div style={{background: "white"}}>
+              <img src={sc1} alt="" style={{maxWidth: "100%", margin: 0}}/>
+              <img src={sc2} alt="" style={{maxWidth: "100%", margin: 0}}/>
+              <img src={sc3} alt="" style={{maxWidth: "100%", margin: 0}}/>
+              <img src={sc4} alt="" style={{maxWidth: "100%", margin: 0}}/>
+            </div>
           <div className='main'>
-            <br/>
-            <br/>
-            <div className='mid'><h2>Implementation</h2></div>
+            <div className='mid'>
+              <h2>Implementation</h2>
+            </div>
               <p> The advising dashboard is implemented using ReactJS and Redux for the frontend, and Django for the backend. </p>
               <p> View <a href="http://www.cnds.jhu.edu/courses/cs310/semesterly/" style={{textDecoration: "underline"}}>the final project overview</a> and source code.</p>
-
             <br/>
             <br/>
-            <div className='mid'><h2>Final Conclusions</h2></div>
+            <div className='mid'>
+              <h2>Final Conclusions</h2>
+            </div>
               <h3>lesson learned</h3>
               <p> 
                 This project was unique to me because I was not just a product designer, but also a developer. I was able to 
@@ -225,7 +221,7 @@ class Case extends React.Component {
               <p>
                  
               </p>
-            <br/>
+              <br/>
           </div>
         </div>
       </div>

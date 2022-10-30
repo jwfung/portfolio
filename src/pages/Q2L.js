@@ -64,10 +64,9 @@ class Case extends React.Component {
               </div>
             </div>
           </div>
-          <img src={mockup} alt="" style={{borderRadius: "10px", maxWidth: "80%", margin: 10}}></img>
-
           {/* background */}
           <div className='main'>
+            <img src={mockup} alt="" style={{borderRadius: "10px", maxWidth: "100%"}}/>
             <div className='mid'> <h2>Background</h2> </div>
             <h3>context</h3>
             <p>
@@ -82,10 +81,10 @@ class Case extends React.Component {
             </p> 
             <h3>gaining user insights</h3>
               <p>A survey was conducted to better understand how students felt about the situation. 
-                I analyzed the data from the student survey, and I came up with two personas
-                to illustrate user needs:</p>
+                I analyzed the data from the student survey, and I came up with a persona
+                to illustrate the user needs:</p>
               <div className="persona">
-                <div style={{zIndex: "-1"}}>
+                <div>
                   <h4>story</h4>
                   Timothy is a university student taking classes remotely at home. Timothy is a visual and kinetic learner, and 
                   the recent shift to virtual classes has made it hard for him to stay focused. 
@@ -96,7 +95,6 @@ class Case extends React.Component {
                   <ul>• loses focus watching videos of other people preforming experiments</ul>
                   <ul>• difficult to comprehend and memorize the tools for future labs</ul>
                 </div>
-                
               </div>
             <h3>solution</h3>
               <p>The goal was to create <strong>a gamefied learning app </strong> 

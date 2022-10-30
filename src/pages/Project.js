@@ -12,9 +12,12 @@ class Project extends React.Component {
   
   render() {
     return(
-      <div id="projects">
-        <br/>
-        <h1>projects</h1>
+      <div id="projects" >
+        <div style={{minHeight: "10%"}}>
+          <br/>
+          <br/>
+        </div>
+        <h1>latest projects</h1>
         <div className='project'>
           <div>
           <Link to="/portfolio/projects/q2l" >
@@ -38,6 +41,12 @@ class Project extends React.Component {
               <h2>ucredit</h2>
               <p>simplifying course planning for university students</p>
             </Link>
+          </div>
+          <div>
+            <Link to="/portfolio/BTS" spy={true} smooth={true}> ByTheirSide Redesign </Link> 
+          </div>
+          <div>
+            <Link to="/portfolio/Peanuts" spy={true} smooth={true}> Peanuts </Link> 
           </div>
         </div>  
       </div>

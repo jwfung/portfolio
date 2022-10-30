@@ -4,8 +4,8 @@ import '../App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Topbar />
+    <div>
+      {/* <Topbar /> */}
       <Main />
     </div>
   );

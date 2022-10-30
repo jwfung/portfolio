@@ -1,70 +1,14 @@
 import React from 'react';
 import '../App.css';
-import { render } from 'react-dom';
 
-import china from  "../assets/china.png";
-import korea from "../assets/korea.png";
-import spain from "../assets/spain.png";
 import thirty from "../assets/watercolor/30_green.png";
 import botanical from "../assets/watercolor/botanical_print.png";
 import clean from "../assets/watercolor/clean.png";
-import collage from "../assets/watercolor/collage.png";
 import interior from "../assets/watercolor/interior.png";
 import portrait from "../assets/watercolor/portrait.png";
 import series from "../assets/watercolor/series.png";
+import collage from "../assets/watercolor/collage.png"
 import pattern from "../assets/watercolor/pattern.png";
-
-import Gallery from 'react-grid-gallery';
-
-const IMAGES =
-[{
-  src: clean,
-  thumbnail: clean,
-  thumbnailWidth: 300,
-  thumbnailHeight: 300,
-  // caption: "After Rain (Jeshu John - designerspics.com)"
-},
-{
-  src: interior,
-  thumbnail: interior,
-  thumbnailWidth: 3,
-  thumbnailHeight: 3,
-},
-{
-  src: series,
-  thumbnail: series,
-  thumbnailWidth: 3,
-  thumbnailHeight: 3,
-  // tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-},
-{
-  src: portrait,
-  thumbnail: portrait,
-  thumbnailWidth: 3,
-  thumbnailHeight: 3,
-},
-
-{
-  src: botanical,
-  thumbnail: botanical,
-  thumbnailWidth: 3,
-  thumbnailHeight: 3,
-},
-{
-  src: thirty,
-  thumbnail: thirty,
-  thumbnailWidth: 500,
-  thumbnailHeight: 300,
-  // tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-},
-//{
-  // src: collage,
-  // thumbnail: collage,
-  // thumbnailWidth: 3,
-  // thumbnailHeight: 3,
-  // tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-//},
-]
 
 class About extends React.Component {
   componentDidMount() {
@@ -74,8 +18,9 @@ class About extends React.Component {
   render() {
     return(
       <div>
-        <div className="about">
-          <div>
+        <div className='decor'/>
+        <div className="textbox">
+          <div className='text'>
             <p>
               Hello, I'm Jeanie!
             </p> 
@@ -94,7 +39,7 @@ class About extends React.Component {
             </p>            
           </div>
         </div>  
-        <div className='main'>
+        <div className='text' style={{padding: "0 20%"}}>
         <h2>my resume</h2>
         <a className='btn' target="_blank" href="https://1drv.ms/w/s!ApAzMnlybCxJl2HKLsEqQXju1_sg?e=mwt5o6"> resume </a> 
         <h2>my writing</h2>
@@ -102,13 +47,16 @@ class About extends React.Component {
         <br/>
         <br/>
         <h2>my artwork</h2>
-        <div className='mid' style={{left: "5%"}}>
-          <Gallery 
-            images={IMAGES}  
-            enableImageSelection={false}
-            rowHeight='300'
-            margin='5%'
-          />
+        <div className='gallery'>
+          <img src={clean} />
+          <img src={interior} />
+          <img src={series} />
+          <img src={portrait} />
+          <img src={botanical} />
+          <img src={pattern} />
+          {/* <img src={collage} /> */}
+          <img src={thirty} style={{maxWidth: "50%"}}/>
+          {/* <img src={}/> */}
         </div>          
       </div>
       </div>
