@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0b27f85f.css",
-    "main.js": "/portfolio/static/js/main.988d989f.js",
+    "main.css": "/portfolio/static/css/main.84b6fcb4.css",
+    "main.js": "/portfolio/static/js/main.78c698ed.js",
     "static/media/q2l_hifi.gif": "/portfolio/static/media/q2l_hifi.5443670d4fc567ad7b62.gif",
     "static/media/series.png": "/portfolio/static/media/series.886bae6f3e0fe2239340.png",
     "static/media/clean.png": "/portfolio/static/media/clean.26513b5435bd784d7a67.png",
@@ -11,6 +11,8 @@
     "static/media/30_green.png": "/portfolio/static/media/30_green.d6b695e3481fef791af8.png",
     "static/media/interior.png": "/portfolio/static/media/interior.3137b3729b75304bb4f2.png",
     "static/media/pattern.png": "/portfolio/static/media/pattern.16f644f1e2f9e22f6a79.png",
+    "static/media/ByTheirSide.pdf": "/portfolio/static/media/ByTheirSide.83d3fe79742ae7d948dd.pdf",
+    "static/media/Peanuts.pdf": "/portfolio/static/media/Peanuts.85317bd606f70218651b.pdf",
     "static/media/collage.png": "/portfolio/static/media/collage.2678dc68ac95a499762d.png",
     "static/media/q2l_icons.png": "/portfolio/static/media/q2l_icons.9425efd8f7d95605e432.png",
     "static/media/semly_side.png": "/portfolio/static/media/semly_side.59def5733e6e28cbe7fe.png",
@@ -35,7 +37,9 @@
     "static/media/merriweather-all-400-normal.woff": "/portfolio/static/media/merriweather-all-400-normal.5e7a0e6a9b864b89292d.woff",
     "static/media/uc_tn.png": "/portfolio/static/media/uc_tn.dcc8fe46701c58cb733e.png",
     "static/media/ucr_mockup.png": "/portfolio/static/media/ucr_mockup.c189225f0bda9772f1f3.png",
+    "static/media/bts.jpg": "/portfolio/static/media/bts.a3fe70c3ae110bc232ac.jpg",
     "static/media/semly_sc2.png": "/portfolio/static/media/semly_sc2.f14fd5bc01e2d10f7c63.png",
+    "static/media/peanuts.jpg": "/portfolio/static/media/peanuts.867b43b989630a7ccf54.jpg",
     "static/media/merriweather-latin-400-normal.woff2": "/portfolio/static/media/merriweather-latin-400-normal.e009f21405b4d7e89367.woff2",
     "static/media/q2l_type.png": "/portfolio/static/media/q2l_type.1decf1c490879db17e3e.png",
     "static/media/merriweather-cyrillic-ext-400-normal.woff2": "/portfolio/static/media/merriweather-cyrillic-ext-400-normal.2a880e22b1b888ab5465.woff2",
@@ -45,11 +49,11 @@
     "static/media/selfport.svg": "/portfolio/static/media/selfport.37fa9a076f8002f7b3ab8228efcf8ef5.svg",
     "static/media/merriweather-vietnamese-400-normal.woff2": "/portfolio/static/media/merriweather-vietnamese-400-normal.1c4607f612e73642c77e.woff2",
     "index.html": "/portfolio/index.html",
-    "main.0b27f85f.css.map": "/portfolio/static/css/main.0b27f85f.css.map",
-    "main.988d989f.js.map": "/portfolio/static/js/main.988d989f.js.map"
+    "main.84b6fcb4.css.map": "/portfolio/static/css/main.84b6fcb4.css.map",
+    "main.78c698ed.js.map": "/portfolio/static/js/main.78c698ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b27f85f.css",
-    "static/js/main.988d989f.js"
+    "static/css/main.84b6fcb4.css",
+    "static/js/main.78c698ed.js"
   ]
 }
