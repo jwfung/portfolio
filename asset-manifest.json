@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8c5ab77f.css",
-    "main.js": "/portfolio/static/js/main.f8b1d43c.js",
+    "main.js": "/portfolio/static/js/main.5b247c91.js",
     "static/media/q2l_hifi.gif": "/portfolio/static/media/q2l_hifi.5443670d4fc567ad7b62.gif",
     "static/media/clean.jpg": "/portfolio/static/media/clean.26513b5435bd784d7a67.jpg",
     "static/media/portrait.jpg": "/portfolio/static/media/portrait.2052c730fa367f61e280.jpg",
@@ -10,11 +10,12 @@
     "static/media/interior.jpg": "/portfolio/static/media/interior.3137b3729b75304bb4f2.jpg",
     "static/media/ByTheirSide.pdf": "/portfolio/static/media/ByTheirSide.83d3fe79742ae7d948dd.pdf",
     "static/media/Peanuts.pdf": "/portfolio/static/media/Peanuts.85317bd606f70218651b.pdf",
-    "static/media/alley2.jpg": "/portfolio/static/media/alley2.4e8f18cdf76a685789d3.jpg",
-    "static/media/banok.jpg": "/portfolio/static/media/banok.df6df3573dca94306a5e.jpg",
+    "static/media/alley2.jpg": "/portfolio/static/media/alley2.2fa8d42df348dd0f7e6c.jpg",
+    "static/media/banok.jpg": "/portfolio/static/media/banok.87dfef7f5ab11034a2e5.jpg",
     "static/media/alley.jpg": "/portfolio/static/media/alley.7b1e07a311477b2b06e4.jpg",
-    "static/media/cat.jpg": "/portfolio/static/media/cat.fecf13de5f57781890ee.jpg",
-    "static/media/busan.jpg": "/portfolio/static/media/busan.c2605871c19691009d64.jpg",
+    "static/media/collage.jpg": "/portfolio/static/media/collage.2825ce8fa60f32583d36.jpg",
+    "static/media/busan.jpg": "/portfolio/static/media/busan.1c79390d59f8f57a321f.jpg",
+    "static/media/cat.jpg": "/portfolio/static/media/cat.d6bb0d9fe923508cf5cd.jpg",
     "static/media/q2l_icons.png": "/portfolio/static/media/q2l_icons.9425efd8f7d95605e432.png",
     "static/media/semly_side.png": "/portfolio/static/media/semly_side.59def5733e6e28cbe7fe.png",
     "static/media/lofi.jpg": "/portfolio/static/media/lofi.293dde613946c38b9f06.jpg",
@@ -56,10 +57,10 @@
     "static/media/bg.svg": "/portfolio/static/media/bg.e9887efb5a9bb865cdce.svg",
     "index.html": "/portfolio/index.html",
     "main.8c5ab77f.css.map": "/portfolio/static/css/main.8c5ab77f.css.map",
-    "main.f8b1d43c.js.map": "/portfolio/static/js/main.f8b1d43c.js.map"
+    "main.5b247c91.js.map": "/portfolio/static/js/main.5b247c91.js.map"
   },
   "entrypoints": [
     "static/css/main.8c5ab77f.css",
-    "static/js/main.f8b1d43c.js"
+    "static/js/main.5b247c91.js"
   ]
 }
