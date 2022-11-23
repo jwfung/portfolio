@@ -18,7 +18,7 @@ import banok from "../assets/photos/banok.jpg";
 import busan from "../assets/photos/busan.jpg";
 import cat from "../assets/photos/cat.jpg";
 
-import Topbar from '../Topbar';
+import SideBar from '../Sidebar';
 
 class About extends React.Component {
   componentDidMount() {
@@ -28,7 +28,7 @@ class About extends React.Component {
   render() {
     return(
       <div className='body'>
-        <Topbar/>
+        <SideBar/>
         <div className='right' style={{textAlign: "left"}}>
           <br/>
           <br/>

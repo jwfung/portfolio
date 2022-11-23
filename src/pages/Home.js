@@ -2,8 +2,9 @@ import React from 'react';
 import ProjectList from './ProjectList';
 import Blurb from './Blurb';
 import '../App.css';
+import '../Home.css';
 import Intro from './Intro';
-import Topbar from '../Topbar';
+import SideBar from '../Sidebar';
 
 
 class HomeScreen extends React.Component{
@@ -11,26 +12,18 @@ class HomeScreen extends React.Component{
     super(props);
     this.state = {
       isTop: true,
-      showProject: true,
     };
   }
 
   componentDidMount(){ 
-
     document.addEventListener('scroll', () => {
-      const isTop = window.scrollY < 800;
+      const isTop = window.scrollY < 500;
       if (isTop !== this.state.isTop) {
           this.setState({ isTop })
       }
     });
   }
 
-
-  showProject(menu) {
-    menu === 'project' ? this.setState({showProject: true}) : this.setState({showProject: false});
-  }
-
-  
   render() {
     return(
       <div className='App'>
@@ -45,23 +38,13 @@ class HomeScreen extends React.Component{
           </svg>
         </div>
 
-
-        
-        {/* <div class="waves-container">
-          <svg viewBox="0 0 1968 1000" height="1000">
-            <path fill="#f7ede3" fill-opacity='1'/>
-            <path fill="#F6BF62" fill-opacity='1'/>
-            <path stroke="#F5CAC4" strokeWidth='4pt' fill="transparent"/>
-            <path fill="#F28583" fill-opacity='1'/>  
-          </svg>
-        </div>  */}
-
         <div className='proj containter'>
+          {!this.state.isTop && <SideBar /> }
           
-          {!this.state.isTop && <Topbar/>}
           <div className= "right" >
             <ProjectList/>
-          </div>  
+          </div>
+
         </div> 
         
 

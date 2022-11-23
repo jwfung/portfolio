@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import Topbar from '../Topbar';
+import Topbar from '../Sidebar';
 import ProjectList from './ProjectList';
 
 

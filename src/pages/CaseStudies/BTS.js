@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import pdf from '../../assets/ByTheirSide.pdf';
-import Topbar from '../../Topbar';
+import Topbar from '../../Sidebar';
 
 function BTS(){
   const [numPages, setNumPages] = useState(null);
