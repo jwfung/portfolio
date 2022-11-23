@@ -56,7 +56,7 @@
   font-size: 5vw;
 }
 
-.logo > a{
+.logo > a {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: oblique;
   font-weight: bolder;
@@ -64,6 +64,9 @@
   color: #60065D;
   margin-left: 15px;
 } 
+.logo > a:hover {
+  font-size: 1.7rem;
+}
 
 .nav {
   color: #60065D;
