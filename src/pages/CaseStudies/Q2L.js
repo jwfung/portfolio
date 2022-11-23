@@ -1,18 +1,18 @@
 import React from 'react';
-import '../App.css';
-import flow from '../assets/flow.jpg';
-import lofi from '../assets/lofi.jpg';
-import mockup from '../assets/quest2learn.png';
-import q2l1 from '../assets/q2l_1.png';
-import q2l2 from '../assets/q2l_2.png';
-import q2l3 from '../assets/q2l_3.png';
-import icons from '../assets/q2l_icons.png';
-import hifi from '../assets/q2l_hifi.gif';
-import full from '../assets/q2l_full.png';
-import colors from '../assets/q2l_colors.png';
-import types from '../assets/q2l_type.png';
-import sc1 from '../assets/q2l_sc1.png';
-import sc2 from '../assets/q2l_sc2.png';
+import '../../App.css';
+import flow from '../../assets/flow.jpg';
+import lofi from '../../assets/lofi.jpg';
+import mockup from '../../assets/quest2learn.png';
+import q2l1 from '../../assets/q2l_1.png';
+import q2l2 from '../../assets/q2l_2.png';
+import q2l3 from '../../assets/q2l_3.png';
+import icons from '../../assets/q2l_icons.png';
+import hifi from '../../assets/q2l_hifi.gif';
+import full from '../../assets/q2l_full.png';
+import colors from '../../assets/q2l_colors.png';
+import types from '../../assets/q2l_type.png';
+import sc1 from '../../assets/q2l_sc1.png';
+import sc2 from '../../assets/q2l_sc2.png';
 
 
 class Case extends React.Component {

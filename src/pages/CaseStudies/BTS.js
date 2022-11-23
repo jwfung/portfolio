@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
-import pdf from '../assets/Peanuts.pdf'
+import pdf from '../../assets/ByTheirSide.pdf';
+import Topbar from '../../Topbar';
 
 function BTS(){
   const [numPages, setNumPages] = useState(null);
@@ -14,6 +15,8 @@ function BTS(){
   }, [] )
 
   return (
+    <>
+    <Topbar/>
     <div class="pdf">
       <Document
         file={pdf}
@@ -30,6 +33,8 @@ function BTS(){
         ))}
       </Document>
     </div>
+    </>
+    
    
   );
 }

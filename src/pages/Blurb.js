@@ -4,7 +4,7 @@ import '../App.css';
 const Blurb = () => {
   const [color, setColor] = useState(false)
   const changeColor = () => {
-    if (window.scrollY > 80) {
+    if (window.scrollY > 80 && window.scrollY < 500) {
       setColor('black')
     }
     else {
@@ -23,13 +23,12 @@ const Blurb = () => {
   return(
     <div class={`blurb ${color}`}>
       <div className="text">
-        <p> I'm Jeanie! </p>
-        <p>I am a current undergraduate aispiring to be a product designer.
-          My backgrounds are in cognitive science, HCI research, computer science and linguistics! 
-        </p>
+        <p> Hi, I’m Jeanie!  👋 </p>
         <br/>
+        <p> I am a UX designer and developer, striving to create engaging, human-centric designs. </p>
+        <br/>
+        <p> See my work below :)</p>
       </div> 
-      <p> see my work below :)</p>
     </div>  
     )
 }

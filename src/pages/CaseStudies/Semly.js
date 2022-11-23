@@ -1,15 +1,15 @@
 import React from 'react';
-import '../App.css';
-import flow from '../assets/flow_semly.jpg';
-import dash from '../assets/semly_dash.png';
-import side from "../assets/semly_side.png";
-import mockup from '../assets/semly.png';
-import am from '../assets/semly_am.png';
-import hifi from '../assets/semly_hifi.gif';
-import sc1 from '../assets/semly_sc1.png';
-import sc2 from '../assets/semly_sc2.png';
-import sc3 from '../assets/semly_sc3.png';
-import sc4 from '../assets/semly_sc4.png';
+import '../../App.css';
+import flow from '../../assets/flow_semly.jpg';
+import dash from '../../assets/semly_dash.png';
+import side from "../../assets/semly_side.png";
+import mockup from '../../assets/semly.png';
+import am from '../../assets/semly_am.png';
+import hifi from '../../assets/semly_hifi.gif';
+import sc1 from '../../assets/semly_sc1.png';
+import sc2 from '../../assets/semly_sc2.png';
+import sc3 from '../../assets/semly_sc3.png';
+import sc4 from '../../assets/semly_sc4.png';
 
 class Case extends React.Component {
   componentDidMount() {

@@ -1,11 +1,12 @@
 import React from 'react';
-import '../App.css';
-import flow from '../assets/flow.jpg';
-import lofi from '../assets/lofi.jpg';
-import mockup from '../assets/quest2learn.png';
-import q2l1 from '../assets/q2l_1.png';
-import q2l2 from '../assets/q2l_2.png';
-import q2l3 from '../assets/q2l_3.png';
+import '../../App.css';
+import mockup from '../../assets/quest2learn.png';
+
+// import flow from '../../assets/flow.jpg';
+// import lofi from '../../assets/lofi.jpg';
+// import q2l1 from '../../assets/q2l_1.png';
+// import q2l2 from '../../assets/q2l_2.png';
+// import q2l3 from '../../assets/q2l_3.png';
 
 class Case extends React.Component {
   componentDidMount() {

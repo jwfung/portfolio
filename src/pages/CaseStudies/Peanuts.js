@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
-import pdf from '../assets/ByTheirSide.pdf'
+import pdf from '../../assets/Peanuts.pdf'
 
 function BTS(){
   const [numPages, setNumPages] = useState(null);

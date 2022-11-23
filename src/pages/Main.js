@@ -2,20 +2,21 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import Home from "./Home";
-import Q2L from "./Q2L";
-import Semly from "./Semly";
-import Ucredit from "./Ucredit";
+import Q2L from "./CaseStudies/Q2L";
+import Semly from "./CaseStudies/Semly";
+import BTS from './CaseStudies/BTS';
+import Peanuts from "./CaseStudies/Peanuts";
+// import Ucredit from "./CaseStudies/Ucredit";
 import Project from "./Project";
 import About from "./About";
 import InProduction from "./InProduction";
 import "@fontsource/merriweather";
-import BTS from './BTS';
-import Peanuts from "./Peanuts";
+
 
 const Main = () => {
   window.scrollTo(0,0);
 
-  return (
+  return (      
     <Routes>
       <Route path="/portfolio" element={<Home/>}/>
       <Route path="/portfolio/about" element={<About/>} />
