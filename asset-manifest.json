@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e88bf303.css",
-    "main.js": "/portfolio/static/js/main.497abb5e.js",
+    "main.css": "/portfolio/static/css/main.f75f9da6.css",
+    "main.js": "/portfolio/static/js/main.070a48e2.js",
     "static/media/q2l_hifi.gif": "/portfolio/static/media/q2l_hifi.5443670d4fc567ad7b62.gif",
     "static/media/clean.jpg": "/portfolio/static/media/clean.26513b5435bd784d7a67.jpg",
     "static/media/portrait.jpg": "/portfolio/static/media/portrait.2052c730fa367f61e280.jpg",
@@ -56,11 +56,11 @@
     "static/media/merriweather-vietnamese-400-normal.woff2": "/portfolio/static/media/merriweather-vietnamese-400-normal.1c4607f612e73642c77e.woff2",
     "static/media/bg.svg": "/portfolio/static/media/bg.e9887efb5a9bb865cdce.svg",
     "index.html": "/portfolio/index.html",
-    "main.e88bf303.css.map": "/portfolio/static/css/main.e88bf303.css.map",
-    "main.497abb5e.js.map": "/portfolio/static/js/main.497abb5e.js.map"
+    "main.f75f9da6.css.map": "/portfolio/static/css/main.f75f9da6.css.map",
+    "main.070a48e2.js.map": "/portfolio/static/js/main.070a48e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e88bf303.css",
-    "static/js/main.497abb5e.js"
+    "static/css/main.f75f9da6.css",
+    "static/js/main.070a48e2.js"
   ]
 }
