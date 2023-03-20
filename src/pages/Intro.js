@@ -25,7 +25,7 @@ const Intro = () => {
     <>
     {show && <div className="intro">
         <div className="title" style={{left: "4%", maxHeight: "35px", position: "fixed", top: "0"}}>
-          <p class="yellow" style={{fontSize: "1.5rem", margin: ".1em 0"}}>jeanie w. fung</p> 
+          <p class="yellow" style={{fontSize: "1.3rem", margin: ".1em 0", fontStyle: "italic"}}>jeanie w. fung</p> 
         </div>
         <div class="icon">
           <Selfport/>

@@ -1,27 +1,15 @@
 /* TOPBAR */
 .topbar {
   width: 100%;
-  height: 3.5rem;
+  height: 2.5rem;
   position: fixed;
   top: 0;
-  background-color: clear;
+  background-color: #F7EDE3;
   transition-timing-function: ease-in;
   transition: 0.5s;
+  z-index: 12;
+  padding-top: 10px;
 }
-.topbar__color {
-  background-color: #F7EDE3;
-}
-.topbar__layout {
-  text-align: justify;
-  display: grid;
-  grid-template-columns: auto 30%;
-  grid-gap: 5%;
-}
-.topbar__layout > div {
-  padding: 20px 0;
-  font-size: 1.2em;
-}
-
 .three-col {
   display: grid;
   grid-template-columns: auto auto;
@@ -64,9 +52,7 @@
   color: #60065D;
   margin-left: 15px;
 } 
-.logo > a:hover {
-  font-size: 1.7rem;
-}
+
 
 .nav {
   color: #60065D;
@@ -95,11 +81,8 @@
 }
 .blurb {
   position: sticky;
-  color: transparent;
   max-width: 85%;
-  overflow-wrap: break-word;
   word-wrap: break-word;
-  top: 90vh;
 }
 .black { 
   color: black;
@@ -129,10 +112,10 @@
 }
 .left > a {
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 .left > a:hover {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 
 .right {
@@ -210,7 +193,7 @@
 
 .project > a {
   border-radius: 20px;
-  margin: 5%; 
+  margin: 5% 0 5% 0; 
   max-width: 70vw;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

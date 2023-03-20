@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import pdf from '../../assets/ByTheirSide.pdf';
-import Topbar from '../../Sidebar';
+import Topbar from '../Topbar.js';
 
 function BTS(){
   const [numPages, setNumPages] = useState(null);
@@ -15,7 +15,7 @@ function BTS(){
   }, [] )
 
   return (
-    <>
+    <div className='body'>
     <Topbar/>
     <div class="pdf">
       <Document
@@ -33,7 +33,7 @@ function BTS(){
         ))}
       </Document>
     </div>
-    </>
+    </div>
     
    
   );

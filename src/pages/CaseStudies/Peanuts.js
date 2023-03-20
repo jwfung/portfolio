@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import pdf from '../../assets/Peanuts.pdf'
+import Topbar from '../Topbar.js';
 
 function BTS(){
   const [numPages, setNumPages] = useState(null);
@@ -14,6 +15,8 @@ function BTS(){
   }, [] )
 
   return (
+    <div className='body'>
+    <Topbar/>
     <div class="pdf">
       <Document
         file={pdf}
@@ -29,6 +32,7 @@ function BTS(){
             pageMode="fullscreen" />
         ))}
       </Document>
+    </div>
     </div>
    
   );

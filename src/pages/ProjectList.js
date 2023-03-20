@@ -27,7 +27,7 @@ class ProjectList extends React.Component {
           <Link to="/portfolio/Peanuts" spy={true} smooth={true}> 
             <img src={peanuts} alt="peanuts project" style={{borderRadius: "20px"}}/>
           </Link>
-          <Link to="/portfolio/projects/q2l" >
+          {/* <Link to="/portfolio/projects/q2l" >
             <img src={q2l} alt="quest2learn mockups" style={{borderRadius: "20px"}}/>
           </Link>
           <Link to="/portfolio/projects/semly" >
@@ -35,7 +35,7 @@ class ProjectList extends React.Component {
           </Link>
           <Link to="/portfolio/projects/ucredit" >
             <img src={uc} alt="ucredit mockups" style={{borderRadius: "20px"}}/>
-          </Link>
+          </Link> */}
         </div>  
       </div>
     )

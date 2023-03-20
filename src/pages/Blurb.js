@@ -24,9 +24,7 @@ const Blurb = () => {
     <div class={`blurb ${color}`}>
       <div className="text">
         <p> Hi, I’m Jeanie!  👋 </p>
-        <br/>
         <p> I am a UX designer and developer, striving to create engaging, human-centric designs. </p>
-        <br/>
         <p> See my work below :)</p>
       </div> 
     </div>  
